@@ -57,7 +57,7 @@ GET /cliente - Lista todos os clientes
 
 GET /cliente/:id - Detalha um cliente
 
-### Essas rotas foram implementadas com o objetivo de melhorar a qualidade do sistema.
+As rotas de cadastrar e atualizar produto permitem o upload de imagens do produto, através de login na plataforma Blackblaze.
  
 ## Tecnologias usadas
 <ul><li>node</li>
@@ -84,5 +84,5 @@ GET /cliente/:id - Detalha um cliente
 ## Testes
 Postman ou Insomnia
 
-##Video
+## Video
 <a href=https://clipchamp.com/watch/Mk9FTG24WYd>Veja testes dos endponits</a>
