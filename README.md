@@ -1,6 +1,6 @@
 #Sistema PDV
 
-Introdução
+<h1>Introdução</h1>
 Seja bem vindo ao sistema de ponto de venda (PDV)
 
 Um sistema de PDV (Ponto de Venda) é uma ferramenta de software essencial para estabelecimentos comerciais. Ele permite o registro de vendas, aceita diferentes formas de pagamento, emite recibos e gerencia o estoque. Além disso, fornece relatórios detalhados de vendas e pode se integrar a outras ferramentas de negócios.
@@ -8,9 +8,9 @@ Um sistema de PDV (Ponto de Venda) é uma ferramenta de software essencial para 
 Uso básico
 API funciona na URL: http://localhost:3000 ou no link Backend. Antes de iniciar é necessário fazer o clone do repositório, baixar as dependências e por fim configurar um arquivo .env no diretorio raiz do projeto conforme o exemplo abaixo, ou pde usar a insomnia para testar os endpoint pelo link https://pdv-26iz.onrender.com
 
-git clone https://github.com/exemplo-backend/exemplo-backend-git
+<lr>git clone https://github.com/exemplo-backend/exemplo-backend-git
 
-npm install ou npm i - Para baixar todas as dependências
+npm install ou npm i - Para baixar todas as dependências</lr>
 PORT=
 
 DB_HOST= 
