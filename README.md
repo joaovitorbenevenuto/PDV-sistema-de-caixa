@@ -1,16 +1,20 @@
-#Sistema PDV
+# PDV Frente de Caixa
 
-<h1>Introdução</h1>
+
+
+## Sobre o projeto
+
 Seja bem vindo ao sistema de ponto de venda (PDV)
 
 Um sistema de PDV (Ponto de Venda) é uma ferramenta de software essencial para estabelecimentos comerciais. Ele permite o registro de vendas, aceita diferentes formas de pagamento, emite recibos e gerencia o estoque. Além disso, fornece relatórios detalhados de vendas e pode se integrar a outras ferramentas de negócios.
 
-Uso básico
+## Uso básico
 API funciona na URL: http://localhost:3000 ou no link Backend. Antes de iniciar é necessário fazer o clone do repositório, baixar as dependências e por fim configurar um arquivo .env no diretorio raiz do projeto conforme o exemplo abaixo, ou pde usar a insomnia para testar os endpoint pelo link https://pdv-26iz.onrender.com
 
-<lr>git clone https://github.com/exemplo-backend/exemplo-backend-git
+git clone https://github.com/exemplo-backend/exemplo-backend-git
 
-npm install ou npm i - Para baixar todas as dependências</lr>
+npm install ou npm i - Para baixar todas as dependências
+
 PORT=
 
 DB_HOST= 
@@ -24,7 +28,9 @@ DB_PASS=
 DB_NAME=
 
 JWT_PASS=
-após a confiiguração basta apenas chamar as seguintes rotas:
+
+## após a confiiguração basta apenas chamar as seguintes rotas:
+
 GET /categoria - Lista todos as categorias
 
 POST /usuario - Cadastra um novo usuário
@@ -51,21 +57,32 @@ GET /cliente - Lista todos os clientes
 
 GET /cliente/:id - Detalha um cliente
 
-Essas rotas foram implementadas com o objetivo de melhorar a qualidade do sistema.
+### Essas rotas foram implementadas com o objetivo de melhorar a qualidade do sistema.
+ 
+## Tecnologias usadas
+<ul><li>node</li>
+<li>Express</li>
 
-Tecnologias usadas
-node
-Express
-nodemon
-bcrypt
-insomnia
-dotenv
-joi
-jsonwebtoken
-knex
-pg
-javascript
-Testes
+<li>nodemon</li>
+
+<li>crypt</li>
+
+<li>insomnia</li>
+
+<li>dotenv</li>
+
+<li>joi</li>
+
+<li>jsonwebtoken</li>
+
+<li>knex</li>
+
+<li>pg</li>
+
+<li>javascript</li></ul>
+
+## Testes
 Postman ou Insomnia
-Video
-Veja testes dos endponits
+
+##Video
+<a href=https://clipchamp.com/watch/Mk9FTG24WYd>Veja testes dos endponits</a>
